@@ -1,5 +1,8 @@
 ﻿namespace Geometry3D.Domain.Test.Service.Impl
 {
+    using System;
+    using Domain.Model;
+    using Domain.Service.Impl;
     using NUnit.Framework;
 
     [TestFixture]
@@ -9,7 +12,11 @@
         [Test]
         public void InstantiateFromOppositeVertices_SameCoordinates_Throws()
         {
-            Assert.Fail();
+            Dot3D a = new Dot3D {X = 1, Y = 1, Z = 1};
+            Dot3D b = new Dot3D {X = 1, Y = 1, Z = 1};
+            var sut = new Cube3DFactoryDomainService();
+
+            Assert.Throws<ArgumentException>(() => sut.InstantiateFromOppositeVertices(a, b));
         }
 
         [Test]
