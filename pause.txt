@@ -1,0 +1,6 @@
+This file is just to indicate that the development is paused. 
+
+Total passed 
+	- 40m in understanding the problem of intersection of the cubes (there were many cases and many approaches, so I selected one)
+	- 30m designing
+	- 90m implementing
