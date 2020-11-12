@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry3D.Domain", "Geomet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry3d.Application", "Geometry3d.Application\Geometry3d.Application.csproj", "{C10B0DD4-5B04-4798-A190-B1A3778EA09C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry3D.Domain.Test", "Geometry3D.Domain.Test\Geometry3D.Domain.Test.csproj", "{6C3EEBFA-4923-4FD7-AC7E-E638835E591F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry3D.Application.Test", "Geometry3D.Application.Test\Geometry3D.Application.Test.csproj", "{68B7F3C0-494A-47B0-B53D-77BB0D21C513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C10B0DD4-5B04-4798-A190-B1A3778EA09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C10B0DD4-5B04-4798-A190-B1A3778EA09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C10B0DD4-5B04-4798-A190-B1A3778EA09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3EEBFA-4923-4FD7-AC7E-E638835E591F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3EEBFA-4923-4FD7-AC7E-E638835E591F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3EEBFA-4923-4FD7-AC7E-E638835E591F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3EEBFA-4923-4FD7-AC7E-E638835E591F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B7F3C0-494A-47B0-B53D-77BB0D21C513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B7F3C0-494A-47B0-B53D-77BB0D21C513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B7F3C0-494A-47B0-B53D-77BB0D21C513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B7F3C0-494A-47B0-B53D-77BB0D21C513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
