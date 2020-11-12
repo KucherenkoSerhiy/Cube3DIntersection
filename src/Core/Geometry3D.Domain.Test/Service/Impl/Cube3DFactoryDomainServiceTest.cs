@@ -3,22 +3,41 @@
     using NUnit.Framework;
 
     [TestFixture]
+    [Parallelizable(ParallelScope.All)]
     public class Cube3DFactoryDomainServiceTest
     {
         [Test]
-        public void InstantiateFromOppositeVerticesTest()
+        public void InstantiateFromOppositeVertices_SameCoordinates_Throws()
         {
             Assert.Fail();
         }
 
         [Test]
-        public void InstantiateFromOppositeEdgesTest()
+        public void InstantiateFromOppositeVertices_DifferentCoordinates_Ok()
         {
             Assert.Fail();
         }
 
         [Test]
-        public void InstantiateFromOppositePlanesTest()
+        public void InstantiateFromOppositeEdges_SameOrigin_Throws()
+        {
+            Assert.Fail();
+        }
+
+        [Test]
+        public void InstantiateFromOppositeEdges_DifferentDirection_Throws()
+        {
+            Assert.Fail();
+        }
+
+        [Test]
+        public void InstantiateFromOppositePlanes_SameOrigin_Throws()
+        {
+            Assert.Fail();
+        }
+
+        [Test]
+        public void InstantiateFromOppositePlanes_DifferentDirection_Throws()
         {
             Assert.Fail();
         }
