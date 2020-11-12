@@ -8,8 +8,7 @@
     {
         public Cube3D InstantiateFromOppositeVertices(Dot3D a, Dot3D b)
         {
-            // TODO: if (a.Equals(b))
-            if (a.X == b.X && a.Y == b.Y && a.Z == b.Z)
+            if (a.Equals(b))
                 throw new ArgumentException("Dots cannot be on the same spot");
             return new Cube3D();
         }
